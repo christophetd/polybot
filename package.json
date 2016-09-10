@@ -1,0 +1,38 @@
+{
+  "name": "awesomebot",
+  "version": "0.0.1",
+  "description": "An awesome bot",
+  "main": "app.js",
+  "bin": {
+    "coffee": "./node_modules/coffee-script/bin/coffee"
+  },
+  "scripts": {
+    "test": "jasmine-node --coffee --verbose --color spec/",
+    "start": "coffee src/app.coffee"
+  },
+  "author": "Christophe Tafani-Dereeper",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "coffee": "^2.1.0",
+    "coffee-script": "^1.10.0",
+    "date-format": "0.0.2",
+    "denodeify": "^1.2.1",
+    "format": "^0.2.1",
+    "fs-walk": "0.0.1",
+    "iconv-lite": "^0.4.13",
+    "jasmine-node": "^1.14.5",
+    "lyric-get": "^1.0.3",
+    "moment": "^2.13.0",
+    "mongodb": "^2.0.49",
+    "node-schedule": "^0.5.1",
+    "node-telegram-bot-api": "^0.15.0",
+    "png-js": "^0.1.1",
+    "promise": "^7.0.4",
+    "querystring": "^0.2.0",
+    "request": "^2.66.0",
+    "winston": "^2.2.0",
+    "xml2js": "^0.4.16",
+    "yandex-translate": "^2.1.0"
+  }
+}

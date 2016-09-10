@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Le Corbusier",
+        "id": "22",
+        "aliases": [
+            "corbu", "corb"
+        ]
+    },
+    {
+        "name": "Le Parmentier",
+        "id": "23",
+        "aliases": [
+            "parmentier", "parm", "parmenswag"
+        ]
+    },
+    {
+      "name": "Le Vinci",
+      "id": "24",
+      "aliases": [
+        "vinci"
+      ]
+    },
+    {
+        "name": "L'Atlantide",
+        "id": "26",
+        "aliases": [
+            "atl", "atlanswag"
+        ]
+    },
+    {
+        "name": "Hong Thaï Rung",
+        "id": "14",
+        "aliases": [
+            "thai", "asiat", "thai food truck", "thai roulotte", "roulotte thai"
+        ]
+    },
+    {
+      "name": "Caféteria MX",
+      "id": "27",
+      "aliases": [
+        "cafet mx", "mx cafeteria", "cafeteria mx", "mx"
+      ]
+    },
+    {
+      "name": "Caféteria BC",
+      "id": "18",
+      "aliases": [
+        "cafet bc", "bc cafeteria", "cafeteria bc", "bc"
+      ]
+    }
+]

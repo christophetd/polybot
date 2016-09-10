@@ -1,0 +1,59 @@
+{
+    "menu_error": "Je n'ai pas réussi à récupérer les menus. Désolé ! (%s)",
+    "occupancy_error": "Je n'ai pas réussi à récupérer le planning de %s. Désolé ! (%s)",
+    "unknown_error": "erreur inconnue",
+    "not_implemented": "Désolé, je ne sais pas encore faire ça !",
+
+    "occupancy_free": "La salle %s est libre. %s",
+    "occupancy_next_course": "Le prochain cours est à %s (%s)",
+    "occupancy_busy": "La salle %s n'est pas libre. Il y a actuellement le cours %s (%s) qui se termine à %s.",
+    "occupancy_no_data": "Je n'ai réussi à trouver aucune donnée pour le planning de la salle %s. La salle est sûrement libre.",
+
+    "wat": [
+      "Désolé, je ne suis pas sûr de bien avoir compris.",
+      "Peux-tu répéter cela ?",
+      "J'ai bien peur de ne pas avoir compris ce dont tu as besoin.",
+      "Pardon ?"
+    ],
+
+    "internal_error": [
+      "Looks like I thought about it too hard and my brain exploded. Mind to ask me that again?"
+    ],
+
+
+    "restaurant_no_name": "Je n'ai pas compris le nom du restaurant. Peux-tu répéter ?",
+    "restaurant_menu_error": "Je n'ai malheureusement pas réussi à récupérer ce menu.",
+    "restaurant_no_menu": "Il semble qu'il n'y aie pas de menu pour le restaurant :name: :day:. Vérifie qu'il est bien ouvert. [emoji:embarrassed]",
+    "restaurant_answer": "Voici le menu du restaurant %s.\n\n%s",
+    "restaurant_answer_weekend": "Nous sommes %s, les restaurants sont fermés ! Voici le menu du restaurant %s pour lundi.\n\n%s",
+    "restaurant_unknown": "J'ai bien peur de ne pas connaître ce restaurant. [emoji:embarassed]",
+
+    "days": [
+      "lundi",
+      "mardi",
+      "mercredi",
+      "jeudi",
+      "vendredi",
+      "samedi",
+      "dimanche"
+    ],
+    "today": "aujourd'hui",
+
+    "greetings": [
+      "Bonjour :name:. Que puis-je fais pour toi ?",
+      "Salut :name: ! Comment puis-je t'aider ?",
+      "Olah, :name:. Je t'écoute !",
+      "Salutations, :name:"
+    ],
+
+    "you_re_welcome": [
+      "Mais de rien, :name:.",
+      "Tout le plaisir est pour moi, :name:.",
+      "Avec plaisir. Puis-je faire quelque chose d'autre pour toi, :name: ?"
+    ],
+
+    "insults_responses": [
+      "J'attends plus de respect de ta part, :name:.",
+      ":name:, mon but est de t'assister. Il n'est pas nécessaire d'être insultant."
+    ]
+}

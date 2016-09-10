@@ -1,8 +1,10 @@
 [![Build Status](https://travis-ci.com/christophetd/awesome-bot.svg?token=XndQsXByyZvxbqRRWyCC&branch=master)](https://travis-ci.com/christophetd/awesome-bot)
 
-# Awesome bot
+# EPFL PolyBot
 
-This repository holds the source code of the Telegram Bot AwesomeBot (@ThousandBot for legacy reasons).
+This repository holds the source code of the Telegram Bot EPFL PolyBot (@epfl_PolyBot).
+
+[**Talk to PolyBot!**](https://telegram.me/epfl_polybot)
 
 ## Features
 

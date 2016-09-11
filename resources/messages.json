@@ -58,5 +58,12 @@
     ],
 
     "balance_response": "Il te reste %s.- sur ta carte camipro.",
-    "balance_login": "Il semblerait que c'est la première fois que tu utilises cette fonction, ou que ta session est expirée. \n\nVeux-tu bien t'authentifier avec tes identifiants gaspar à l'adresse suivante ? \n\n%s\n\nJe te laisse %s secondes pour faire cela."
+    "balance_login": "Il semblerait que c'est la première fois que tu utilises cette fonction, ou que ta session est expirée. \n\nVeux-tu bien t'authentifier avec tes identifiants gaspar à l'adresse suivante ? \n\n%s\n\nJe te laisse %s secondes pour faire cela.",
+
+    "transportation_no_data": "Je n'ai malheureusement trouvé aucune donnée auprès d'OpenData. Désolé. :/",
+    "transportation_direction": "Prochains métros en direction de %s :\n",
+    "transportation_item": "%s (%s)\n",
+    "transportation_minutes_singular": "dans 1 minute",
+    "transportation_minutes_plural": "dans %s minutes",
+    "transportation_now": "maintenant !"
 }

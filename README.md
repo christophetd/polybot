@@ -1,8 +1,21 @@
-[![Build Status](https://travis-ci.com/christophetd/awesome-bot.svg?token=XndQsXByyZvxbqRRWyCC&branch=master)](https://travis-ci.com/christophetd/awesome-bot)
+# EPFL PolyBot
 
-# Awesome bot
+This repository holds the source code of the Telegram Bot EPFL PolyBot (@epfl_PolyBot).
 
-This repository holds the source code of the Telegram Bot AwesomeBot (@ThousandBot for legacy reasons).
+[**Talk to PolyBot!**](https://telegram.me/epfl_polybot)
+
+## Features
+
+You can talk to the bot using natural language, and ask him about:
+- the menu of the campus restaurants
+- the room occupancies
+- (more to come!)
+
+Sample conversation:
+
+![bot](https://cloud.githubusercontent.com/assets/136675/18413587/8a40d208-77b4-11e6-87f5-7660b81c9afb.PNG)
+
+The bot is only available in french as of now.
 
 ## Running
 
@@ -11,8 +24,8 @@ Requirements: Node, Npm
 - Clone this repository, and `cd` in it
 
 ```
-git clone https://github.com/christophetd/awesome-bot
-cd awesome-bot
+git clone https://github.com/christophetd/polybot
+cd polybot
 ```
 - Install dependencies
 
@@ -35,11 +48,3 @@ npm start
 ```
 
 - All set! You can now talk to the bot on Telegram. Please note that its username will *not* be @ThousandBot, but the username you have chosen when you created it.
-
-## Testing
-
-The tests are regrouped in the `spec` folder. To run the tests, use
-
-```
-npm test
-```

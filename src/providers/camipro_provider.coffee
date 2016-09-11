@@ -21,6 +21,10 @@ getTequilaRequestKey = (user_id) ->
 
     users_keys[user_id] = key
     return key
+  .catch (err) ->
+    log.debug "Could not get tequila request key from camipro website"
+    log.debug err
+    Promise.reject("error from camipro website")
 
 getCamiproBalance = (key) ->
   log.debug "Trying to get camipro balance now, key=#{key}"

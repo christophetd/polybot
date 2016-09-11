@@ -9,7 +9,7 @@ class TelegramAdapter extends BaseAdapter
     @telegram.on 'message', (msg) =>
       log.debug "[Message] on chat #{msg.chat.id} : #{msg.text}"
       user_name = msg.from?.first_name?.split(/\s+/)[0]
-      @emit('message', new Message(msg.chat.id, msg.text, user_name))
+      @emit('message', new Message(msg.chat.id, msg.text, user_name, msg.from?.id))
 
     @telegram.getMe()
     .then (me) -> log.info "Bot started: @#{me.username}"

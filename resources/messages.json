@@ -55,5 +55,8 @@
     "insults_responses": [
       "J'attends plus de respect de ta part, :name:.",
       ":name:, mon but est de t'assister. Il n'est pas nécessaire d'être insultant."
-    ]
+    ],
+
+    "balance_response": "Il te reste %s.- sur ta carte camipro.",
+    "balance_login": "Il semblerait que c'est la première fois que tu utilises cette fonction, ou que ta session est expirée. \n\nVeux-tu bien t'authentifier avec tes identifiants gaspar à l'adresse suivante ? \n\n%s\n\nJe te laisse %s secondes pour faire cela."
 }

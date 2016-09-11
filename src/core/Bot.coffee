@@ -30,6 +30,7 @@ class Bot
     log.debug data
 
     data.user = message.user
+    data.user_id = message.user_id
 
     for handler in @handlers
       if data.intent is handler.intent
@@ -42,7 +43,7 @@ class Bot
     throw new Error("No handler found for intent '#{data.intent}'")
 
   dispatchFromRegex: (message, response) =>
-    data = user: message.user, matches: []
+    data = user: message.user, user_id: message.user_id, matches: []
 
     for handler in @handlers
       if handler.regex?.test message.text
@@ -53,7 +54,7 @@ class Bot
           log.error e
           return response.replyOneOfMessages "internal_error"
 
-    log.info "Nothing"
+    log.debug "NOTHING FOUND REPLY WATWAT"
     response.replyOneOfMessages "wat"
 
 module.exports = Bot

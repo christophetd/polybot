@@ -1,5 +1,5 @@
 log     = require 'winston'
-Promise = require 'Promise'
+Promise = require 'promise'
 request = Promise.denodeify( require 'request' )
 string  = require './../utils/strings'
 moment  = require 'moment'

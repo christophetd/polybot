@@ -5,18 +5,19 @@ moment                = require 'moment'
 
 directions =
   LAUSANNE:
-    aliases: ['lausanne flon', 'lausanneflon', 'flon']
+    aliases: ['lausanne', 'lausanne flon', 'lausanneflon', 'flon']
   RENENS:
-    aliases: ['renens gare', 'gare de renens']
+    aliases: ['renens', 'renens gare', 'gare de renens']
 
 normalizeDirection = (rawDirection) ->
   rawDirection = rawDirection
     .toLowerCase()
-    .replace(/[^a-zA-Z]/g, '')
+    .replace(/[^a-zA-Z\s]/g, '')
     .replace(/\s{2,}/g, ' ')
     .trim()
 
-  for directionName, obj in directions
+  log.debug rawDirection
+  for directionName, obj of directions
     if obj.aliases.indexOf(rawDirection) >= 0
       return directionName
 
@@ -24,7 +25,7 @@ normalizeDirection = (rawDirection) ->
 
 config =
   intent: 'get_metro_schedule'
-  regex: /^\/metro (.*)/
+  regex: /^\/metro ?(.*)?/
 
 module.exports = (bot) -> bot.hear config, (res, data) ->
   direction = if data.intent then data.parameters.metro_direction else data.matches[1]
@@ -33,6 +34,8 @@ module.exports = (bot) -> bot.hear config, (res, data) ->
   transportationService.getNextMetro (normalizeDirection(direction))
   .then (schedules) ->
     str = ''
+    schedules = if schedules.length then schedules else [schedules]
+
     for schedule in schedules
       str += string('transportation_direction', schedule.direction)
       for time in schedule.schedule

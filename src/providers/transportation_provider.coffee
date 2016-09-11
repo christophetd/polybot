@@ -26,6 +26,7 @@ transformResponse = (data) ->
   log.debug data.connections[0].from.departureTimestamp
   times.push moment.unix(data.connections[0].from.departureTimestamp)
   times.push moment.unix(data.connections[1].from.departureTimestamp)
+  times.push moment.unix(data.connections[2].from.departureTimestamp)
 
   return direction: data.connections[0].to.station.name, schedule: times
 
